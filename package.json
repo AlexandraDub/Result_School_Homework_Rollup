@@ -1,0 +1,24 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sudo rollup -c -w",
+    "build": "sudo rollup -c"
+  },
+  "keywords": [
+    "webpack",
+    "rollup"
+  ],
+  "author": "Alexandra",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.1",
+    "rollup-plugin-styles": "^4.0.0"
+  }
+}
